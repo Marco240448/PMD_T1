@@ -1,4 +1,4 @@
-
+package Ejemplos
     fun main() {
 
         // TIPOS DE DATOS

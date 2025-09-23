@@ -1,3 +1,5 @@
+package Ejemplos
+
 fun main() {
     val name = "Mundo"
     println("Hola, $name!")

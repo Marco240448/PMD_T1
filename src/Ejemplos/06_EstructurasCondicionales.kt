@@ -85,7 +85,9 @@ fun main() {
         val anho = fecha.substring(6, 8).toInt()
 
         if (dia in 1..31 && mes in 1..12) {
-            println("Fecha válida: $dia-$mes-$anho")
+            println(dia)
+            println(mes)
+            println(anho)
         } else {
             println("Fecha inválida: día o mes fuera de rango.")
         }
