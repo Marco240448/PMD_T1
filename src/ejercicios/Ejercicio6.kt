@@ -1,4 +1,4 @@
-package Ejercicios
+package ejercicios
 
 fun main() {
     val edad = arrayOf(5, 6, 15, 17, 18, 19, 20)

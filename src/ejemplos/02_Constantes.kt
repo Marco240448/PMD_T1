@@ -1,4 +1,4 @@
-package Ejemplos
+package ejemplos
 const val FICHERO = "datos.dat"
 
 fun main () {

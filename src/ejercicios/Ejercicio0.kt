@@ -1,4 +1,4 @@
-package Ejercicios // Define el paquete donde se encuentra este archivo
+package ejercicios // Define el paquete donde se encuentra este archivo
 
 // Función que determina si un número es primo
 fun esPrimo(n: Int): Boolean {
