@@ -32,7 +32,7 @@ fun main (){
     batman.realName = "Soy Batman" //Cambiamos "Bruce Wayne" por "Soy Batman"
     batman.toString() //Devolverá todos los atributos con su valor
 
-    // Usa el método copy() de una data class para copiar los valores de un objeto en otro.
+    // Usa el mEtodo copy() de una data class para copiar los valores de un objeto en otro.
 
     val batmanCopy:Superhero = batman.copy()
     val superBatman:Superhero = batman.copy(superhero = "SuperBatman")
