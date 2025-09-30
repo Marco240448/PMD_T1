@@ -4,12 +4,8 @@ package ejercicios
    Si le pasamos "Hola mundo" nos retornaría "odnum aloH" */
 
 fun main() {
-    var HM : String = "Hola Mundo"
-    var IHM : String = ""
-
-    for (index in 1 .. HM.length) {
-        IHM += HM[HM.length - index]
-    }
-
-    print(IHM)
+    val hM = "Hola Mundo"
+    var iHM = ""
+    for (index in 1 .. hM.length) { iHM += hM[hM.length - index] }
+    print(iHM)
 }

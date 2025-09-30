@@ -16,8 +16,6 @@ package ejercicios
 fun main() = println(comprobador(",,,,", ",,,,"))
 private fun comprobador(pal1 : String, pal2 : String) : Boolean {
     var nPal = ""
-    for (index in 1..pal1.length) {
-        nPal += pal1[pal1.length - index]
-    }
+    for (index in 1..pal1.length) { nPal += pal1[pal1.length - index] }
     return nPal.lowercase() == pal2.lowercase()
 }

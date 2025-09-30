@@ -17,7 +17,6 @@ package ejercicios
 fun main() {
     val names = listOf("Ana", "Juan", "María", "Luis", "Elena")
     fun longitudPromedio(namesList : List<String>) : Double { if (names.isEmpty()) { return 0.0 }
-        return namesList.sumOf {it.length}.toDouble() / namesList.size
-    }
+        return namesList.sumOf {it.length}.toDouble() / namesList.size }
     print(longitudPromedio(names))
 }
