@@ -19,9 +19,7 @@ fun main() { var saldo = 0.0
                 if (cantidad != null && cantidad > 0) {
                     saldo = ingresarDinero(cantidad)
                     println("Has ingresado ${String.format("%.2f", cantidad)}€ con éxito \n==========================")
-                } else {
-                    println("Cantidad inválida \n==========================")
-                }
+                } else println("Cantidad inválida \n==========================")
             }
             3 -> {
                 print("Introduce la cantidad de dinero que quieres sacar: ")
@@ -31,12 +29,8 @@ fun main() { var saldo = 0.0
                     if (nuevoSaldo < saldo) {
                         saldo = nuevoSaldo
                         println("Has sacado ${String.format("%.2f", cantidad)}€ con éxito \n==========================")
-                    } else {
-                        println("Saldo insuficiente \n==========================")
-                    }
-                } else {
-                    println("Cantidad inválida \n==========================")
-                }
+                    } else println("Saldo insuficiente \n==========================")
+                } else println("Cantidad inválida \n==========================")
             }
             4 -> println("Nos vemos en la próxima \n==========================")
             else -> println("No has introducido una opción válida \n==========================")
