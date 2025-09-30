@@ -9,7 +9,7 @@ fun main() {
 fun calcularBisisetos30(year: Int) {
     var yearActual : Int = year + 1
     for (index in 1..30) {
-        if (yearActual % 4 == 0 && (yearActual % 100 != 0 || yearActual % 400 == 0)) { println(yearActual) }
+        if (yearActual % 4 == 0 && (yearActual % 100 != 0 || yearActual % 400 == 0)) println(yearActual)
         yearActual += 1
     }
 }

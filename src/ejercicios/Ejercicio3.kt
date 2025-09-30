@@ -6,6 +6,6 @@ package ejercicios
 fun main() {
     val hM = "Hola Mundo"
     var iHM = ""
-    for (index in 1 .. hM.length) { iHM += hM[hM.length - index] }
+    for (index in 1 .. hM.length) iHM += hM[hM.length - index]
     print(iHM)
 }
